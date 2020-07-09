@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <!-- font-family: 'Comfortaa', cursive; -->
+
+</head>
+
+<body>
+    
+    <div class="main">
+        <div id="good"> 
+            <h1>Stop Watch</h1>
+        </div>
+        <div class="main1">
+            <span class="color" id="hours"> 00 </span><sub> h </sub>
+            <span class="color"> : </span>
+            <span class="color" id="minutes"> 00 </span><sub>  m </sub>
+            <span class="color"> : </span>
+            <span class="color" id="seconds"> 00 </span><sub> s </sub>
+            <span class="color"> : </span>
+            <span class="color" id="mSeconds"> 00 </span><sub> ms </sub>
+        </div>
+        <div>
+            
+            <button class="btn btn1" id="btn-start" onclick="start()" >Start</button>
+            <button class="btn btn2" id="btn-pause" onclick="stop()">Pause</button>
+            <button class="btn btn" id="btn-reset" onclick="reset()">Reset</button>
+            
+            
+        </div>
+    </div>
+
+
+
+
+        <script src="app.js"></script>
+</body>
+
+</html>
